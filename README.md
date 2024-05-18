@@ -13,3 +13,4 @@ Welcome to the J2EE Dynamic Web Projects repository! This repository contains dy
 - Contact Form Submission: A web application for submitting and processing contact forms.
 - User Management: A CRUD application for managing user information with database integration.
 - and much more to explore...
+*It contains the neccessary .jar files*
