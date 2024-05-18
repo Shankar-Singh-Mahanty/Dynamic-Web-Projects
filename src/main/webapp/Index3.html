@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>SSM Dispatcher Page</title>
+	<style>
+    #myform table tr td input{
+    	font-size: 20px;
+    }
+    #myform table tr td button{
+    	font-size: 20px;
+    }
+   </style>
+	</head>
+	<body>
+		<div>
+			<h1>SSM Request Dispatcher Home Page </h1>
+			
+			<form id="myform" action="Dispatcher" method="post">
+				<table>
+					<tr>
+						<td><h2>Enter Country Name : </h2></td>
+						<td><input type="text" name="country_name" placeholder="Enter here" /></td>
+					</tr>
+					<tr>
+						<td><h2>Enter Password :</h2></td>
+						<td><input type="password" name="country_password" placeholder="Enter here" /></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<button type="submit">Submit</button>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</body>
+</html>

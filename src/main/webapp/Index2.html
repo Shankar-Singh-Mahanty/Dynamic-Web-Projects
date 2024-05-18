@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Redirect Page</title>
+		<style>
+    #myform table tr td input{
+    	font-size: 20px;
+    }
+    #myform table tr td button{
+    	font-size: 20px;
+    	text-align: right;
+    }
+  	</style>
+	</head>
+	<body>
+		<div class="container">
+			<h1>SSM Redirect Home Page </h1>
+			
+			<form id="myform" action="RedirectJSP" method="post">
+				<table>
+					<tr>
+						<td><h2>Enter Address</h2></td>
+						<td></td>
+						<td><h2>Click Redirect Button</h2></td>
+					</tr>
+					
+					<tr>
+						<td><input type="text" name="page1" placeholder="Address 1" /></td>
+						<td></td>
+						<td><button type="submit">Search 1</button>
+					</tr>
+					
+					<tr>
+          	<td><input type="text" name="page2" placeholder="Address 2" /></td>
+          	<td></td>
+          	<td><button type="submit">Search 2</button></td>
+        	</tr>
+
+        	<tr>
+          	<td><input type="text" name="page3" placeholder="Address 3" /></td>
+          	<td></td>
+          	<td><button type="submit">Search 3</button></td>
+        	</tr>
+        	
+				</table>
+			</form>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>SSM Session Management Page</title>
+	<style>
+    #myform table tr td input{
+    	font-size: 20px;
+    }
+    #myform table tr td button{
+    	font-size: 20px;
+    }
+   </style>
+	</head>
+	<body>
+		<div>
+			<h1>SSM Session Management Home Page </h1>
+			
+			<form id="myform" action="SessionManagement" method="post">
+				<table>
+					<tr>
+						<td><h2>Enter Your Email : </h2></td>
+						<td><input type="text" name="user_email" placeholder="Enter here" /></td>
+					</tr>
+					<tr>
+						<td><h2>Enter Password :</h2></td>
+						<td><input type="password" name="user_password" placeholder="Enter here" /></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<button type="submit">LogIn</button>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</body>
+</html>
