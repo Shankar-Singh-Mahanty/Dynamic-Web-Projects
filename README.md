@@ -1,6 +1,7 @@
 # J2EE Dynamic Web Projects Repository
 Welcome to the J2EE Dynamic Web Projects repository! This repository contains dynamic web projects developed using J2EE technologies, including JSP, Servlets, and HTML. The projects showcase various web application functionalities, from basic form handling to complex user interactions and database integrations, demonstrating the power of J2EE for web development.
-*It contains the neccessary .jar files* _Please configure Tomcat 10v to use these .jar files_
+- *It contains the neccessary .jar files*
+- _Please configure Tomcat 10v to use these .jar files_
 ## Features
 - JSP (JavaServer Pages): Dynamic content generation for web applications, simplifying the creation of web pages with server-side scripting.
 - Servlets: Powerful server-side Java programs for handling client requests and generating responses, providing a robust backend for web applications.
